@@ -1,0 +1,22 @@
+{
+  "name": "sales-prediction-backend",
+  "version": "1.0.0",
+  "description": "Backend for Sales & Demand Prediction Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "csv-parser": "^3.0.0",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
